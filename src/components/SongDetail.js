@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 export function SongDetail({ song }) {
   // conditionally render a placeholder if nothing exists for this piece of state yet
   if (!song) {
-    return <div>Select a song!</div>;
+    return <div>Select a song YOU SICK FUCK</div>;
   }
 
   const { title, duration } = song;
